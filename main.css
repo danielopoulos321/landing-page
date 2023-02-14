@@ -15,7 +15,10 @@ ul{
 
 li{
     list-style: none;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 a{
@@ -32,6 +35,10 @@ button{
     color: #f9faf8;
     font-weight: bold;
     padding: 8px 32px;
+}
+
+.bio{
+    flex: 1;
 }
 
 .spacing{
@@ -166,6 +173,7 @@ border-radius: 20px;
     height: 150px;
     border: 5px solid  #3882f6;
     border-radius: 15px;
+    flex: 1;
 
 }
 
