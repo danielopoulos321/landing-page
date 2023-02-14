@@ -2,10 +2,12 @@ body{
     display: flex;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
 }
 
 ul{
     display: flex;
+    align-items: center;
     gap: 35px;
     margin: 0;
     padding: 0;
@@ -13,6 +15,7 @@ ul{
 
 li{
     list-style: none;
+
 }
 
 a{
@@ -47,6 +50,8 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-bottom: 100px;
+    color: #1f2937;
 }
 
 .c2>h2{
@@ -55,11 +60,70 @@ button{
     color: #1f2937;
 }
 
-.left{
+.c3{
+    background-color: #e5e7eb;
+}
+
+.c4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.c5{
+    background-color: #1f2937;
+}
+
+.cta{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.cta>.left{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cta>.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left>h2{
+    color: #f9faf8;
+    margin: 0;
+}
+
+.left>p{
+    margin: 0;
+}
+
+.right>button{
+    border: 2px solid #f9faf8;
+}
+
+.right>img{
+    max-width: 500px;
+    max-height: 350px;
+    border:2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.content>.left{
     flex: 1;
 }
 
-.right{
+.content>.left>p{
+    padding-bottom: 10px;
+}
+
+.content>.right{
     flex: 1;
 }
 
@@ -78,11 +142,12 @@ button{
 .header{
     display:flex;
     justify-content: space-between;
+    padding-top: 25px;
 }
 
 .logo{
-    font-size: 24px;
-    color: #f9faf8;
+max-width: 200px;
+border-radius: 20px;
 }
 
 .content{
@@ -102,4 +167,28 @@ button{
     border: 5px solid  #3882f6;
     border-radius: 15px;
 
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 100px;
+}
+.quote>h3{
+    align-self: flex-end;
+}
+
+.quote>p{
+    font-size: 36px;
+    font-weight: 250;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 25px;
 }
